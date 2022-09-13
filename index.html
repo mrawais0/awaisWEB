@@ -161,8 +161,28 @@
   <section class="footer">
     <!-- <div class="footer-col"></div> -->
         <h4>About Us</h4>
-        <img src="images/awais.jpeg" style="height:180px;
-    width:auto;">
+        <img src="images/awais.jpeg">
+
+<style>
+             .footer img{
+    height:180px;
+    width:auto;
+    animation: awais 2s ease-in 0s infinite alternate backwards;
+    }
+    @keyframes awais {
+        0% {
+            box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+            transform: scale(1);
+        }
+    
+        100% {
+            box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+            transform: scale(1.1);
+        }
+    }
+ 
+        </style>
+
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere quia ad placeat laboriosam, error omnis cumque <br> laudantium numquam pariatursunt voluptatum modi! Asperiores, unde nesciunt.</p>
                     <div class="icons">
                         <i class="fa-brands fa-facebook"></i>
