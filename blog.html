@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport"  content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+    <title>University of Skills</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"> <!--  fontawesome for CDN sy lia ha -->
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-sharp fa-solid fa-xmark" onclick="hideMenue()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOGS</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenue()"> </i>  
+        </nav>
+    <h1>Our Certificate & Online Programs</h1> 
+    </section>
+
+
+    <!-- /////////////////////// Blogs  /////////////////////// -->
+
+    <section class="blog-content">
+        <div class="row">
+
+             <div class="blog-left">
+             <img src="images/certificate.jpg">
+             
+             <h2>Our Certificate & Online Programs</h2>
+             
+             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, eveniet? Ad consequatur totam, recusandae similique a quo assumenda officia laborum nesciunt quaerat blanditiis officiis autem, quisquam nostrum obcaecati. Voluptatum ipsam, error commodi ea quae amet pariatur quas iure nulla temporibus omnis a necessitatibus tempore explicabo dicta. Accusamus inventore quasi illum?</p>
+                <br>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae maxime similique eveniet laudantium eligendi enim dolore in debitis eaque quas officiis suscipit deserunt nesciunt libero ut, reiciendis vel consectetur et iusto culpa delectus! Voluptatem dolorum molestiae vitae saepe iusto eius voluptates temporibus commodi libero placeat provident ipsam perspiciatis cum asperiores porro aut nesciunt veritatis, quas similique nemo necessitatibus in ex optio eum! Animi praesentium eligendi sequi voluptatibus, odio expedita voluptates architecto, rerum dolores esse corrupti atque distinctio. Laudantium reiciendis odit ratione harum eius quae minima? Nulla perferendis, atque ea repudiandae voluptates quaerat perspiciatis a soluta ullam, impedit maxime, dolorum sed.</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis tenetur perferendis quos quia nemo ab iste architecto, eveniet dolore, amet modi inventore blanditiis autem. Debitis ad illum ullam optio perferendis maiores ex laboriosam magni reprehenderit placeat, explicabo molestiae velit excepturi eum corporis, sit natus ratione? Corporis architecto ipsum fuga nesciunt eligendi, consequatur numquam consequuntur facere, quae repellendus minima eum adipisci!</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel voluptatum eveniet eligendi in tempore minima, eius ex quod commodi adipisci! Neque sequi ab officia pariatur laudantium enim accusantium soluta, reprehenderit sit perferendis mollitia recusandae magnam sint ducimus veritatis aliquid fugit rem odio non laborum explicabo. Aliquid est quod placeat provident?</p>
+             </p>
+             
+             <div class="comment-box">
+
+                <h3>Leave a Comment</h3>
+                <form class="comment-form">
+                    <input type="text" placeholder="Enter Name">
+                    <input type="Email" placeholder="Enter Email">
+                    <textarea name="" id="" rows="5" placeholder="Your Comment"></textarea>
+                    <button type="submit" class="hero-btn">POST COMMENT</button>
+                </form>
+             </div>
+
+
+            </div>
+
+
+
+
+             <div class="blog-right">
+                <h3>Post Catagories</h3>
+                <div>
+                    <span>Business Analytics</span>
+                    <span>24</span>
+                </div>
+                <div>
+                    <span>Data Science</span>
+                    <span>15</span>
+                </div>
+                <div>
+                    <span>Machine Learning</span>
+                    <span>30</span>
+                </div>
+                <div>
+                    <span>Computer Science</span>
+                    <span>50</span>
+                </div>
+                <div>
+                    <span>Cyber Security</span>
+                    <span>20</span>
+                </div>
+
+             </div>
+        </div>
+
+    </section>
+
+
+
+     <!-- --------------About Us-------------->
+
+     
+    <!-- --------------Course-------------->
+
+
+
+    <!-- ----------------- Campus  --------------------- -->
+
+
+    <!-- ------------------- Facilities  ----------------------->
+
+
+    <!-- -------------------testimonials---------------- -->
+
+ 
+
+  <!-- ---------------Call to Action--------------------- -->
+
+
+
+  <!-- --------------Footer--------------- -->
+
+  <section class="footer">
+    <!-- <div class="footer-col"></div> -->
+        <h4>About Us</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere quia ad placeat laboriosam, error omnis cumque <br> laudantium numquam pariatursunt voluptatum modi! Asperiores, unde nesciunt.</p>
+                    <div class="icons">
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-linkedin"></i>
+                        <i class="fa-brands fa-instagram"></i>   
+                    </div>
+    <!-- </div> -->
+  </section>
+
+  
+
+
+
+  <!-- ----------- JavaScript for Toggle Menu down------------- -->
+    <script>
+        var navLinks =  document.getElementById("navLinks");
+        function showMenue(){
+            navLinks.style.right="0";
+            navLinks.style.display="block";
+            // console.log("working")
+        }
+        function hideMenue(){
+            navLinks.style.right="-200px";
+        }
+    </script>
+     <!-- ----------- JavaScript for Toggle Menu  up------------- -->
+
+</body>
+</html> 
